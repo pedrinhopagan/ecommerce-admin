@@ -37,9 +37,9 @@ const formSchema = z.object({
 type SettingsFormValues = z.infer<typeof formSchema>
 
 export const SettingsForm: React.FC<SettingsFormsProps> = ({ initialData }) => {
-  const origin = useOrigin()
   const params = useParams()
   const router = useRouter()
+  const origin = useOrigin()
 
   const [open, setOpen] = useState(false)
   const [loading, setLoading] = useState(false)
