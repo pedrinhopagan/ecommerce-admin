@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-Commerce e Dashboard Admin CMS
 
-## Getting Started
+Este é um projeto construído em Next.js que consiste em um e-commerce de roupas e uma dashboard admin CMS para adicionar diferentes lojas. Ele utiliza uma variedade de tecnologias para oferecer uma experiência robusta e escalável.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Next.js 13](https://nextjs.org/) - Framework React para construção de aplicações web.
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces de usuário.
+- [Tailwind CSS](https://tailwindcss.com/) - Um framework CSS utilitário para estilização rápida e flexível.
+- [Prisma](https://www.prisma.io/) - ORM (Object-Relational Mapping) moderno para Node.js e TypeScript.
+- MySQL - Sistema de gerenciamento de banco de dados relacional.
+- ShadCN - [Inserir descrição breve sobre ShadCN e como está sendo usado neste projeto].
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### E-Commerce de Roupas
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Visualização de catálogo de produtos.
+- Adição de produtos ao carrinho de compras.
+- Processo de checkout com integração de pagamento.
 
-## Learn More
+### Dashboard Admin CMS
 
-To learn more about Next.js, take a look at the following resources:
+- Gerenciamento de lojas e produtos.
+- Controle de estoque e preços.
+- Monitoramento de vendas e relatórios.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Instalação
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone o repositório:
 
-## Deploy on Vercel
+`ttps://github.com/pedrinhopagan/ecommerce-admin.git`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Instale as dependências:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`cd ecommerce-admin`
+`npm install`
+
+3. Configure as variáveis de ambiente:
+
+Crie um arquivo `.env` na raiz do projeto e preencha com suas variáveis de ambiente, incluindo as credenciais do banco de dados MySQL.
+
+4. Execute a aplicação:
+
+Acesse `http://localhost:3000` para visualizar o e-commerce e `http://localhost:3000/admin` para acessar a dashboard admin CMS.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um PR (pull request) para correções de bugs, melhorias de código ou implementação de novas funcionalidades.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
